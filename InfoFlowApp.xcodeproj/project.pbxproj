@@ -14,6 +14,8 @@
 		9013FB8A20F8DF52000EB0A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9013FB8920F8DF52000EB0A1 /* Assets.xcassets */; };
 		9013FB8D20F8DF52000EB0A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9013FB8B20F8DF52000EB0A1 /* LaunchScreen.storyboard */; };
 		9013FB9020F8DF52000EB0A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9013FB8F20F8DF52000EB0A1 /* main.m */; };
+		906F300220F980560053A796 /* RootTabBarControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F300120F980560053A796 /* RootTabBarControllerViewController.m */; };
+		906F300620F9845B0053A796 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F300520F9845B0053A796 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		9013FB8C20F8DF52000EB0A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9013FB8E20F8DF52000EB0A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9013FB8F20F8DF52000EB0A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		906F300020F980560053A796 /* RootTabBarControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTabBarControllerViewController.h; sourceTree = "<group>"; };
+		906F300120F980560053A796 /* RootTabBarControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTabBarControllerViewController.m; sourceTree = "<group>"; };
+		906F300420F9845B0053A796 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		906F300520F9845B0053A796 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 		9013FB7C20F8DF51000EB0A1 /* InfoFlowApp */ = {
 			isa = PBXGroup;
 			children = (
+				906F300320F982AB0053A796 /* Home */,
+				9013FB9720F8F2AD000EB0A1 /* Root */,
 				9013FB7D20F8DF51000EB0A1 /* AppDelegate.h */,
 				9013FB7E20F8DF51000EB0A1 /* AppDelegate.m */,
 				9013FB8020F8DF51000EB0A1 /* ViewController.h */,
@@ -72,6 +80,24 @@
 				9013FB8620F8DF51000EB0A1 /* InfoFlowApp.xcdatamodeld */,
 			);
 			path = InfoFlowApp;
+			sourceTree = "<group>";
+		};
+		9013FB9720F8F2AD000EB0A1 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				906F300020F980560053A796 /* RootTabBarControllerViewController.h */,
+				906F300120F980560053A796 /* RootTabBarControllerViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		906F300320F982AB0053A796 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				906F300420F9845B0053A796 /* HomeViewController.h */,
+				906F300520F9845B0053A796 /* HomeViewController.m */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,10 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				906F300220F980560053A796 /* RootTabBarControllerViewController.m in Sources */,
 				9013FB8220F8DF51000EB0A1 /* ViewController.m in Sources */,
 				9013FB7F20F8DF51000EB0A1 /* AppDelegate.m in Sources */,
 				9013FB9020F8DF52000EB0A1 /* main.m in Sources */,
 				9013FB8820F8DF51000EB0A1 /* InfoFlowApp.xcdatamodeld in Sources */,
+				906F300620F9845B0053A796 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

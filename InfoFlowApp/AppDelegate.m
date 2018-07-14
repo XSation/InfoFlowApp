@@ -7,18 +7,24 @@
 //
 
 #import "AppDelegate.h"
-
+#import "RootTabBarControllerViewController.h"
 @interface AppDelegate ()
-
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window=[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.backgroundColor=[UIColor whiteColor];
+    self.window.rootViewController=[[RootTabBarControllerViewController alloc] init];
+    
     return YES;
 }
+
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -71,7 +77,7 @@
                      * The device is out of space.
                      * The store could not be migrated to the current model version.
                      Check the error message to determine what the actual problem was.
-                    */
+                     */
                     NSLog(@"Unresolved error %@, %@", error, error.userInfo);
                     abort();
                 }
