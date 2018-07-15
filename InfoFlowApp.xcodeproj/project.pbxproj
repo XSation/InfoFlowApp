@@ -16,6 +16,8 @@
 		9013FB9020F8DF52000EB0A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9013FB8F20F8DF52000EB0A1 /* main.m */; };
 		906F300220F980560053A796 /* RootTabBarControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F300120F980560053A796 /* RootTabBarControllerViewController.m */; };
 		906F300620F9845B0053A796 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F300520F9845B0053A796 /* HomeViewController.m */; };
+		90B8926D20FB7AFE0055A7C6 /* FavoriteList.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B8926C20FB7AFE0055A7C6 /* FavoriteList.m */; };
+		90B8927220FB887C0055A7C6 /* FontTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B8927120FB887C0055A7C6 /* FontTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,10 @@
 		906F300120F980560053A796 /* RootTabBarControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTabBarControllerViewController.m; sourceTree = "<group>"; };
 		906F300420F9845B0053A796 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		906F300520F9845B0053A796 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		90B8926B20FB7AFE0055A7C6 /* FavoriteList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavoriteList.h; sourceTree = "<group>"; };
+		90B8926C20FB7AFE0055A7C6 /* FavoriteList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoriteList.m; sourceTree = "<group>"; };
+		90B8927020FB887C0055A7C6 /* FontTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontTableViewController.h; sourceTree = "<group>"; };
+		90B8927120FB887C0055A7C6 /* FontTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,8 @@
 		9013FB7C20F8DF51000EB0A1 /* InfoFlowApp */ = {
 			isa = PBXGroup;
 			children = (
+				90B8927020FB887C0055A7C6 /* FontTableViewController.h */,
+				90B8927120FB887C0055A7C6 /* FontTableViewController.m */,
 				906F300320F982AB0053A796 /* Home */,
 				9013FB9720F8F2AD000EB0A1 /* Root */,
 				9013FB7D20F8DF51000EB0A1 /* AppDelegate.h */,
@@ -78,6 +86,8 @@
 				9013FB8E20F8DF52000EB0A1 /* Info.plist */,
 				9013FB8F20F8DF52000EB0A1 /* main.m */,
 				9013FB8620F8DF51000EB0A1 /* InfoFlowApp.xcdatamodeld */,
+				90B8926B20FB7AFE0055A7C6 /* FavoriteList.h */,
+				90B8926C20FB7AFE0055A7C6 /* FavoriteList.m */,
 			);
 			path = InfoFlowApp;
 			sourceTree = "<group>";
@@ -171,6 +181,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				906F300220F980560053A796 /* RootTabBarControllerViewController.m in Sources */,
+				90B8926D20FB7AFE0055A7C6 /* FavoriteList.m in Sources */,
+				90B8927220FB887C0055A7C6 /* FontTableViewController.m in Sources */,
 				9013FB8220F8DF51000EB0A1 /* ViewController.m in Sources */,
 				9013FB7F20F8DF51000EB0A1 /* AppDelegate.m in Sources */,
 				9013FB9020F8DF52000EB0A1 /* main.m in Sources */,

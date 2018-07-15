@@ -8,9 +8,21 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
-
+#import "FavoriteList.h"
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+//        NSLog(@"xxx");
+//        FavoriteList *favoriteList=[FavoriteList sharedFavoriteList];
+//        [favoriteList removeFavoriteItem:@"heh"];
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        
+        
+//        FavoriteList *favoriteList=[FavoriteList sharedFavoriteList];
+//        [favoriteList removeFavoriteItem:@"heh"];
+//        [favoriteList removeFavoriteItem:@"heihei"];
+//
+//        NSArray *array=[favoriteList favorites];
+//        NSLog(@"%@",array);
+        
     }
 }
