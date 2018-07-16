@@ -7,20 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56C3A93A20FC8B9E00C0C4DE /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C3A93920FC8B9E00C0C4DE /* SettingViewController.m */; };
+		56C3A93C20FC8DAF00C0C4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C3A93B20FC8DAF00C0C4DE /* Assets.xcassets */; };
+		56C3A94020FC922900C0C4DE /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C3A93F20FC922900C0C4DE /* ActivityViewController.m */; };
+		56C3A94420FC9CCF00C0C4DE /* TextImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C3A94320FC9CCF00C0C4DE /* TextImageCell.m */; };
 		9013FB7F20F8DF51000EB0A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9013FB7E20F8DF51000EB0A1 /* AppDelegate.m */; };
 		9013FB8220F8DF51000EB0A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9013FB8120F8DF51000EB0A1 /* ViewController.m */; };
 		9013FB8520F8DF51000EB0A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9013FB8320F8DF51000EB0A1 /* Main.storyboard */; };
 		9013FB8820F8DF51000EB0A1 /* InfoFlowApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9013FB8620F8DF51000EB0A1 /* InfoFlowApp.xcdatamodeld */; };
-		9013FB8A20F8DF52000EB0A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9013FB8920F8DF52000EB0A1 /* Assets.xcassets */; };
 		9013FB8D20F8DF52000EB0A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9013FB8B20F8DF52000EB0A1 /* LaunchScreen.storyboard */; };
 		9013FB9020F8DF52000EB0A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9013FB8F20F8DF52000EB0A1 /* main.m */; };
 		906F300220F980560053A796 /* RootTabBarControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F300120F980560053A796 /* RootTabBarControllerViewController.m */; };
 		906F300620F9845B0053A796 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F300520F9845B0053A796 /* HomeViewController.m */; };
-		90B8926D20FB7AFE0055A7C6 /* FavoriteList.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B8926C20FB7AFE0055A7C6 /* FavoriteList.m */; };
-		90B8927220FB887C0055A7C6 /* FontTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B8927120FB887C0055A7C6 /* FontTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56C3A93820FC8B9E00C0C4DE /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		56C3A93920FC8B9E00C0C4DE /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		56C3A93B20FC8DAF00C0C4DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56C3A93E20FC922900C0C4DE /* ActivityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		56C3A93F20FC922900C0C4DE /* ActivityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		56C3A94120FC980400C0C4DE /* JDB4iPhoneGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDB4iPhoneGlobal.h; sourceTree = "<group>"; };
+		56C3A94220FC9CCF00C0C4DE /* TextImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextImageCell.h; sourceTree = "<group>"; };
+		56C3A94320FC9CCF00C0C4DE /* TextImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextImageCell.m; sourceTree = "<group>"; };
 		9013FB7A20F8DF51000EB0A1 /* InfoFlowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfoFlowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9013FB7D20F8DF51000EB0A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9013FB7E20F8DF51000EB0A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,7 +37,6 @@
 		9013FB8120F8DF51000EB0A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9013FB8420F8DF51000EB0A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9013FB8720F8DF51000EB0A1 /* InfoFlowApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InfoFlowApp.xcdatamodel; sourceTree = "<group>"; };
-		9013FB8920F8DF52000EB0A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9013FB8C20F8DF52000EB0A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9013FB8E20F8DF52000EB0A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9013FB8F20F8DF52000EB0A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,10 +44,6 @@
 		906F300120F980560053A796 /* RootTabBarControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTabBarControllerViewController.m; sourceTree = "<group>"; };
 		906F300420F9845B0053A796 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		906F300520F9845B0053A796 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		90B8926B20FB7AFE0055A7C6 /* FavoriteList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavoriteList.h; sourceTree = "<group>"; };
-		90B8926C20FB7AFE0055A7C6 /* FavoriteList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoriteList.m; sourceTree = "<group>"; };
-		90B8927020FB887C0055A7C6 /* FontTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontTableViewController.h; sourceTree = "<group>"; };
-		90B8927120FB887C0055A7C6 /* FontTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56C3A93720FC8B7500C0C4DE /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				56C3A93820FC8B9E00C0C4DE /* SettingViewController.h */,
+				56C3A93920FC8B9E00C0C4DE /* SettingViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		56C3A93D20FC921B00C0C4DE /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				56C3A93E20FC922900C0C4DE /* ActivityViewController.h */,
+				56C3A93F20FC922900C0C4DE /* ActivityViewController.m */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		56C3A94520FCA38400C0C4DE /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				56C3A94120FC980400C0C4DE /* JDB4iPhoneGlobal.h */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
 		9013FB7120F8DF51000EB0A1 = {
 			isa = PBXGroup;
 			children = (
@@ -72,22 +102,21 @@
 		9013FB7C20F8DF51000EB0A1 /* InfoFlowApp */ = {
 			isa = PBXGroup;
 			children = (
-				90B8927020FB887C0055A7C6 /* FontTableViewController.h */,
-				90B8927120FB887C0055A7C6 /* FontTableViewController.m */,
+				56C3A94520FCA38400C0C4DE /* Global */,
+				56C3A93D20FC921B00C0C4DE /* Activity */,
 				906F300320F982AB0053A796 /* Home */,
+				56C3A93720FC8B7500C0C4DE /* Setting */,
 				9013FB9720F8F2AD000EB0A1 /* Root */,
 				9013FB7D20F8DF51000EB0A1 /* AppDelegate.h */,
 				9013FB7E20F8DF51000EB0A1 /* AppDelegate.m */,
+				9013FB8E20F8DF52000EB0A1 /* Info.plist */,
 				9013FB8020F8DF51000EB0A1 /* ViewController.h */,
 				9013FB8120F8DF51000EB0A1 /* ViewController.m */,
 				9013FB8320F8DF51000EB0A1 /* Main.storyboard */,
-				9013FB8920F8DF52000EB0A1 /* Assets.xcassets */,
+				56C3A93B20FC8DAF00C0C4DE /* Assets.xcassets */,
 				9013FB8B20F8DF52000EB0A1 /* LaunchScreen.storyboard */,
-				9013FB8E20F8DF52000EB0A1 /* Info.plist */,
 				9013FB8F20F8DF52000EB0A1 /* main.m */,
 				9013FB8620F8DF51000EB0A1 /* InfoFlowApp.xcdatamodeld */,
-				90B8926B20FB7AFE0055A7C6 /* FavoriteList.h */,
-				90B8926C20FB7AFE0055A7C6 /* FavoriteList.m */,
 			);
 			path = InfoFlowApp;
 			sourceTree = "<group>";
@@ -106,6 +135,8 @@
 			children = (
 				906F300420F9845B0053A796 /* HomeViewController.h */,
 				906F300520F9845B0053A796 /* HomeViewController.m */,
+				56C3A94220FC9CCF00C0C4DE /* TextImageCell.h */,
+				56C3A94320FC9CCF00C0C4DE /* TextImageCell.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -168,7 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9013FB8D20F8DF52000EB0A1 /* LaunchScreen.storyboard in Resources */,
-				9013FB8A20F8DF52000EB0A1 /* Assets.xcassets in Resources */,
+				56C3A93C20FC8DAF00C0C4DE /* Assets.xcassets in Resources */,
 				9013FB8520F8DF51000EB0A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,13 +212,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				906F300220F980560053A796 /* RootTabBarControllerViewController.m in Sources */,
-				90B8926D20FB7AFE0055A7C6 /* FavoriteList.m in Sources */,
-				90B8927220FB887C0055A7C6 /* FontTableViewController.m in Sources */,
 				9013FB8220F8DF51000EB0A1 /* ViewController.m in Sources */,
 				9013FB7F20F8DF51000EB0A1 /* AppDelegate.m in Sources */,
+				56C3A93A20FC8B9E00C0C4DE /* SettingViewController.m in Sources */,
 				9013FB9020F8DF52000EB0A1 /* main.m in Sources */,
 				9013FB8820F8DF51000EB0A1 /* InfoFlowApp.xcdatamodeld in Sources */,
 				906F300620F9845B0053A796 /* HomeViewController.m in Sources */,
+				56C3A94420FC9CCF00C0C4DE /* TextImageCell.m in Sources */,
+				56C3A94020FC922900C0C4DE /* ActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +361,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InfoFlowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -345,6 +378,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InfoFlowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

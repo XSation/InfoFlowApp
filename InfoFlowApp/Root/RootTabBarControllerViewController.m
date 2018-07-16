@@ -8,6 +8,7 @@
 
 #import "RootTabBarControllerViewController.h"
 #import "HomeViewController.h"
+#import "ActivityViewController.h"
 
 @interface RootTabBarControllerViewController ()
 
@@ -22,29 +23,10 @@
 
 #pragma mark - 设置tabs
 
-//设置tabs，后期可根据网络接口来设置
+//设置tabs
 -(void)setupTabs{
-    UIViewController *c2=[[UIViewController alloc]init];
-    c2.tabBarItem.title=@"c2";
     self.viewControllers=@[[[HomeViewController alloc]init],
-                           c2];
+                           [[ActivityViewController alloc]init]];
 }
-
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
