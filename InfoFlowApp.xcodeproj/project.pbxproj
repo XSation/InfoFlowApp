@@ -11,6 +11,7 @@
 		56C3A93C20FC8DAF00C0C4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C3A93B20FC8DAF00C0C4DE /* Assets.xcassets */; };
 		56C3A94020FC922900C0C4DE /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C3A93F20FC922900C0C4DE /* ActivityViewController.m */; };
 		56C3A94420FC9CCF00C0C4DE /* TextImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C3A94320FC9CCF00C0C4DE /* TextImageCell.m */; };
+		56C3A94720FD9D7900C0C4DE /* TextImageDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56C3A94620FD9D7900C0C4DE /* TextImageDemo.xib */; };
 		9013FB7F20F8DF51000EB0A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9013FB7E20F8DF51000EB0A1 /* AppDelegate.m */; };
 		9013FB8220F8DF51000EB0A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9013FB8120F8DF51000EB0A1 /* ViewController.m */; };
 		9013FB8520F8DF51000EB0A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9013FB8320F8DF51000EB0A1 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 		56C3A94120FC980400C0C4DE /* JDB4iPhoneGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDB4iPhoneGlobal.h; sourceTree = "<group>"; };
 		56C3A94220FC9CCF00C0C4DE /* TextImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextImageCell.h; sourceTree = "<group>"; };
 		56C3A94320FC9CCF00C0C4DE /* TextImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextImageCell.m; sourceTree = "<group>"; };
+		56C3A94620FD9D7900C0C4DE /* TextImageDemo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextImageDemo.xib; sourceTree = "<group>"; };
 		9013FB7A20F8DF51000EB0A1 /* InfoFlowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfoFlowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9013FB7D20F8DF51000EB0A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9013FB7E20F8DF51000EB0A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				906F300520F9845B0053A796 /* HomeViewController.m */,
 				56C3A94220FC9CCF00C0C4DE /* TextImageCell.h */,
 				56C3A94320FC9CCF00C0C4DE /* TextImageCell.m */,
+				56C3A94620FD9D7900C0C4DE /* TextImageDemo.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				9013FB8D20F8DF52000EB0A1 /* LaunchScreen.storyboard in Resources */,
 				56C3A93C20FC8DAF00C0C4DE /* Assets.xcassets in Resources */,
 				9013FB8520F8DF51000EB0A1 /* Main.storyboard in Resources */,
+				56C3A94720FD9D7900C0C4DE /* TextImageDemo.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

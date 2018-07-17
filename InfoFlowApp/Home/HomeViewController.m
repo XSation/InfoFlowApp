@@ -27,6 +27,7 @@
         self.tabBarItem.selectedImage=[UIImage imageNamed:@"ic_tabbar_home_selected"];
         self.tabBarItem.image=[UIImage imageNamed:@"ic_tabbar_home_unselected"];
     }
+    
     return self;
 }
 - (void)viewDidLoad {
@@ -60,6 +61,8 @@
     mHomeTableView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     mHomeTableView.dataSource = self;
     mHomeTableView.delegate = self;
+
+    [mHomeTableView registerNib:[UINib nibWithNibName:@"TextImageDemo" bundle:nil] forCellReuseIdentifier:@"textImage"];
 //    mHomeTableView.backgroundColor = [UIColor colorWithHex:@"#f0f2f5"];
     mHomeTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.view addSubview:mHomeTableView];
@@ -206,10 +209,12 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
 //    JDXiaoBingChatCell *chatCell = [tableView dequeueReusableCellWithIdentifier:@"JD_XIAOBING_CHAT"];
-    TextImageCell *chatCell = [tableView dequeueReusableCellWithIdentifier:@"TEXT_IMAGE"];
-    if (chatCell == nil) {
-        chatCell = [[TextImageCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TEXT_IMAGE"];
-    }
+    TextImageCell *chatCell = [tableView dequeueReusableCellWithIdentifier:@"textImage"];
+
+    [chatCell setData:indexPath.row];
+
+//        chatCell = [[TextImageCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TEXT_IMAGE"];
+   
 //
 //    NSMutableDictionary *msgDic = [m_messageArray objectAtIndex:indexPath.row];
 //    NSString *msgType = [msgDic objectForKey:@"type"];
@@ -473,7 +478,7 @@
 
 #pragma mark - UITableViewDelegate
 //设置cell高度
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
 //    NSMutableDictionary *msgDic = [m_messageArray objectAtIndex:indexPath.row];
 //    NSString *msgType = [msgDic objectForKey:@"type"];
 //    CGFloat height = 0;
@@ -578,9 +583,10 @@
 //    if([[timetickDic objectForKey:@"isTimetickShow"] boolValue]){
 //        height += 30;
 //    }
-    return 100;
+//    TextImageCell *cell=[tableView cellForRowAtIndexPath:indexPath];
+//    return 300;
 //    return height + 20;
-}
+//}
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {

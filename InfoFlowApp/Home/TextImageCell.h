@@ -10,4 +10,5 @@
 
 @interface TextImageCell : UITableViewCell
 
+-(void)setData:(NSInteger)index;
 @end
